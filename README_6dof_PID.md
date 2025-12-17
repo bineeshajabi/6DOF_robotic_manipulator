@@ -6,10 +6,6 @@ The project demonstrates correct usage of ROS 2 control architecture, controller
 
 ---
 
-## Repository Overview
-
-GitHub: [https://github.com/bineeshajabi/6DOF_robotic_manipulator](https://github.com/bineeshajabi/6DOF_robotic_manipulator)
-
 The repository is organized into two primary ROS 2 packages:
 
 ```text
@@ -38,6 +34,8 @@ arm_gazebo/
 * Runtime trajectory execution using rqt
 * Real-time PID tuning and validation
 
+**NOTE : For effort command interface (without position command interface), the position+velocity trajectory following error is mapped to effort commands through a PID loop if it is configured. In addition, it adds trajectory’s effort as feedforward effort to the PID output.
+**
 ---
 
 ## Software Requirements
