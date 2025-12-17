@@ -34,8 +34,8 @@ arm_gazebo/
 * Runtime trajectory execution using rqt
 * Real-time PID tuning and validation
 
-**NOTE : For effort command interface (without position command interface), the position+velocity trajectory following error is mapped to effort commands through a PID loop if it is configured. In addition, it adds trajectory’s effort as feedforward effort to the PID output.
-**
+**NOTE** : For effort command interface (without position command interface), the position+velocity trajectory following error is mapped to effort commands through a PID loop if it is configured. In addition, it adds trajectory’s effort as feedforward effort to the PID output. Also with effort interface the model doesnt move without mentioning the gains.
+
 ---
 
 ## Software Requirements
