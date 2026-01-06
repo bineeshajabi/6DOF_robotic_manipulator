@@ -3,7 +3,7 @@
 
   <xacro:property name="joint_effort" value="100.0"/>
   <xacro:property name="joint_velocity" value="2.792527"/>
-  <xacro:property name="joint_damping" value="2.0"/>
+  <xacro:property name="joint_damping" value="4.0"/>      <!-- Changed damping from 2.0 to 4.0 since the robot was vibrating once mimic joint error was removed -->
   <xacro:property name="joint_friction" value="0.7"/>
 
   <xacro:property name="link1_mass" value="2.5"/>
