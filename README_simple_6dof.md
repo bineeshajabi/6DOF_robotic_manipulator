@@ -76,11 +76,13 @@ Each link contains:
     *Simple (boxes, cylinders, spheres)
     *Computationally efficient
     *An approximation of the real shape
+  
 -----------NOTE------------
   DART is the default physics engine
   For mimic bullet featherstone is used
   Reference : [https://gazebosim.org/api/sim/9/physics.html?utm_source=chatgpt.com](https://gazebosim.org/api/sim/9/physics.html?utm_source)
 ---------------------------
+
 **Why this matters:**
 
 * Incorrect inertia → robot collapses
