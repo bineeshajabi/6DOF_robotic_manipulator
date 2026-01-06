@@ -37,7 +37,7 @@ def generate_launch_description():
     #Declare Gazebo launch arguments
     declare_gz_args_cmd = DeclareLaunchArgument(
           name = 'gz_args',
-          default_value = ['-r -v 4 ',world],
+          default_value = ['-r -v 4 ',world,' --physics-engine gz-physics-bullet-featherstone-plugin'],
           description = 'Defining the world for robot model'
      )
     declare_use_sim_time_cmd = DeclareLaunchArgument(
