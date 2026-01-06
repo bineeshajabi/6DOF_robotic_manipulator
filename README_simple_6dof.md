@@ -69,14 +69,16 @@ Each link contains:
 * **Collision** – simplified geometry for physics
   
   The <collision> tag specifies the collision model of a link. This model is used by:
-    *Physics engines (default used is
-    *Motion planners (MoveIt)
-    *Collision checking (self-collision, obstacle avoidance)
-    *Contact dynamics (forces, contacts)
+
+  *Physics engines
+  *Motion planners (MoveIt)
+  *Collision checking (self-collision, obstacle avoidance)
+  *Contact dynamics (forces, contacts)
+  
   Typically, collision geometry is:
-    *Simple (boxes, cylinders, spheres)
-    *Computationally efficient
-    *An approximation of the real shape
+  *Simple (boxes, cylinders, spheres)
+  *Computationally efficient
+  *An approximation of the real shape
   
 Note: DART is the default physics engine
   For mimic bullet featherstone is used
