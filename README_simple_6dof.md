@@ -77,11 +77,10 @@ Each link contains:
     *Computationally efficient
     *An approximation of the real shape
   
------------NOTE------------
-  DART is the default physics engine
+Note: DART is the default physics engine
   For mimic bullet featherstone is used
   Reference : [https://gazebosim.org/api/sim/9/physics.html?utm_source=chatgpt.com](https://gazebosim.org/api/sim/9/physics.html?utm_source)
----------------------------
+
 
 **Why this matters:**
 
