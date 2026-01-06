@@ -67,7 +67,20 @@ Each link contains:
 * **Inertial** – realistic mass & inertia
 * **Visual** – mesh + material
 * **Collision** – simplified geometry for physics
-
+  The <collision> tag specifies the collision model of a link. This model is used by:
+    *Physics engines (default used is
+    *Motion planners (MoveIt)
+    *Collision checking (self-collision, obstacle avoidance)
+    *Contact dynamics (forces, contacts)
+  Typically, collision geometry is:
+    *Simple (boxes, cylinders, spheres)
+    *Computationally efficient
+    *An approximation of the real shape
+-----------NOTE------------
+  DART is the default physics engine
+  For mimic bullet featherstone is used
+  Reference : [https://gazebosim.org/api/sim/9/physics.html?utm_source=chatgpt.com](https://gazebosim.org/api/sim/9/physics.html?utm_source)
+---------------------------
 **Why this matters:**
 
 * Incorrect inertia → robot collapses
