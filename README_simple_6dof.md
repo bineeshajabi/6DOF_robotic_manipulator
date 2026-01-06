@@ -71,19 +71,24 @@ Each link contains:
   The <collision> tag specifies the collision model of a link. This model is used by:
 
   *Physics engines
+  
   *Motion planners (MoveIt)
+  
   *Collision checking (self-collision, obstacle avoidance)
+  
   *Contact dynamics (forces, contacts)
   
   Typically, collision geometry is:
+  
   *Simple (boxes, cylinders, spheres)
+  
   *Computationally efficient
+  
   *An approximation of the real shape
   
-Note: DART is the default physics engine
-  For mimic bullet featherstone is used
+Note: DART is the default physics engine. For mimic bullet featherstone is used
   
-  Reference : [https://gazebosim.org/api/sim/9/physics.html?utm_source=chatgpt.com](https://gazebosim.org/api/sim/9/physics.html?utm_source)
+  Reference : (https://gazebosim.org/api/sim/9/physics.html?utm_source)
 
 
 **Why this matters:**
